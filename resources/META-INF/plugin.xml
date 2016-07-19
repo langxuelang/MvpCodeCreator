@@ -1,0 +1,28 @@
+<idea-plugin version="2">
+  <id>com.gaotenglife.create</id>
+  <name>MVP_CODE_CREATOR</name>
+  <version>1.0</version>
+  <vendor email="gaotengxuelang@gmail.com" url="http://www.gaotenglife.com">xuelang</vendor>
+  <description>
+    帮助生成mvp框架代码
+  </description>
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="141.0"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+  <actions>
+    <group id="MvpPlugin.SampleMenu" text="_MvpTools" description="tools">
+      <add-to-group group-id="MainMenu" anchor="last"  />
+      <action id="MvpPlugin.CreateFileAction" class="CreateMVPFiles" text="CreateFiles" description="createfiles" />
+    </group>
+  </actions>
+
+  <application-components>
+  </application-components>
+</idea-plugin>

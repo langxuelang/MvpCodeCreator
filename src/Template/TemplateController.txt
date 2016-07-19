@@ -1,0 +1,27 @@
+package $packagename;
+
+import $packagebase.view.AndroidDisplay;
+import $packagebase.presenter.viewcallback.$nameCallBack;
+import $packagebase.presenter.viewaction.$nameAction;
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+public class $nameController extends BaseController<$nameCallBack> implements $nameAction{
+    @Override
+    public void attachView($nameCallBack callBack) {
+
+    }
+
+    @Override
+    public void detachView($nameCallBack callBack) {
+
+    }
+
+    @Override
+    public void attachDisplay(AndroidDisplay display) {
+
+    }
+}

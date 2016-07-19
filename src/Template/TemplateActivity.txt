@@ -1,0 +1,37 @@
+package $packagename;
+
+
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+
+ public class $nameActivity extends BaseActivity{
+
+     @Override
+     public int setLayoutId() {
+         return 0;
+     }
+
+     @Override
+     public void initViews() {
+
+     }
+
+     @Override
+     public String setUmengAnalize() {
+         return null;
+     }
+
+     @Override
+     public void initListener() {
+
+     }
+
+     @Override
+     public void initOthers() {
+
+     }
+ }

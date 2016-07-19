@@ -1,0 +1,36 @@
+package $packagename;
+
+import android.view.View;
+
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+public class $nameFragment extends BaseFragment{
+    @Override
+    public View setView() {
+        return null;
+    }
+
+    @Override
+    public void initView() {
+
+    }
+
+    @Override
+    public void initListener() {
+
+    }
+
+    @Override
+    public void initOthers() {
+
+    }
+
+    @Override
+    public String setUmengAnalize() {
+        return null;
+    }
+}

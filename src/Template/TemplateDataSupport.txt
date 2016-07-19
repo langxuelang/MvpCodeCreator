@@ -1,0 +1,24 @@
+package $packagename;
+
+import $packagebase.model.dataaction.$nameDataAction;
+import $packagebase.model.datacallback.$nameDataCallBack;
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+public class $nameDataSupport extends BaseDataSupport implements $nameDataAction{
+
+    private static final String TAG = $nameDataSupport.class.getSimpleName();
+    private $nameDataCallBack m$nameDataCallBack;
+
+    public $nameDataSupport($nameDataCallBack dataCallBack) {
+        m$nameDataCallBack = dataCallBack;
+    }
+
+    @Override
+    public void init() {
+
+    }
+}

@@ -1,0 +1,11 @@
+package $packagename;
+
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+public interface $nameDataCallBack extends BaseDataCallBack {
+
+}
